@@ -1,0 +1,30 @@
+export const testimonals = [
+  {
+    id: 1,
+    name: "Shukurullo Abdubannayev",
+    title: "Android Developer",
+    src: "https://twitter.com/",
+    img: "https://i.ibb.co/sK3pwmC/shukurullo.jpg",
+    icon: "assets/twitter.png",
+    desc: "Always willing to help, incredibly competent, on time, hardworking and reliable. In my experience, no project is too difficult, and with Gayratjon you have a truly unique entity - someone who can simplify a sometimes very complex industry. I can recommend his services without hesitation.",
+  },
+  {
+    id: 2,
+    name: "Baxtiyor Chorshanbiyev",
+    title: "Software Engineer",
+    src: "https://youtube.com/",
+    img: "https://i.ibb.co/KwLZRYq/man.png",
+    icon: "assets/youtube.png",
+    desc: "Gayratjon not only did timely and thorough work, but also pays attention to improving the aesthetics and functionality of the site. Throughout the process, he is responsive and ready to solve any problems that arise. It is obvious that he takes great pride in his work and I would not hesitate to recommend or work with him again.",
+    featured: true,
+  },
+  {
+    id: 3,
+    name: "Beknazar Oltiboyev",
+    title: "Front End Developer",
+    src: "https://www.linkedin.com/",
+    img: "https://i.ibb.co/7C4khrt/beknazar.jpg",
+    icon: "assets/linkedin.png",
+    desc: "Working with Gayratjon was better than expected and we had really high expectations. He's an incredibly talented developer, but what really sets him apart is his work ethic and steady approach. From time to time, and without us asking, he added improvements and improvements that resulted in a better final product for us and our customers.",
+  },
+];
