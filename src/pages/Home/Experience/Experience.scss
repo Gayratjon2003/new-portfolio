@@ -1,5 +1,4 @@
 @import "../../../assets/style/variables";
-
 // .background {
 //   background: background-color-secondary;
 // }
@@ -37,7 +36,6 @@
         font-family: $font-family-popins;
         transition: all 0.3s ease;
         text-align: left;
-
         // margin-bottom: 10px;
 
         &:hover {
@@ -234,6 +232,7 @@
       }
       .experience_tab-header  {
         width: 50%;
+        margin-left: 10%;
       }
       .experience_tab-content {
         padding-left: 0;

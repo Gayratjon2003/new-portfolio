@@ -23,7 +23,7 @@ function Testimonals() {
         centeredSlides={true}
         effect={"coverflow"}
         autoplay={{
-          delay: 10000000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         loop={true}
