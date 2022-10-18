@@ -7,7 +7,7 @@ import MarkDown from "./pages/Blog/Blogs";
 
 function App() {
   return (
-    <BrowserRouter basename="/new-portfolio">
+    <BrowserRouter basename="/">
       <Routes>
         <Route exact path='/' element={<Home />} ></Route>
         {/* <Route path='/blog' element={<Blog />} /> */}

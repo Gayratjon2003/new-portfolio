@@ -7,11 +7,11 @@
   height: calc(100vh - 80px);
   position: relative;
   background: url(../../../assets/img/home-cover.jpg);
-  background-position: center center;
-  background-size: 100%;
+  background-position: left center;
+  // background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   color: $global-color-primary;
-
   &-content {
     display: flex;
     justify-content: center;
@@ -84,7 +84,6 @@
   .header {
     &-content {
       top: 27.5%;
-
       h1 {
         font-size: 64px;
         line-height: 88px;
@@ -139,9 +138,14 @@
 }
 
 @media (max-width: 700px) {
+
   .header {
+    background-size: cover;
+    background-position: 10% 50%;
+    background-repeat: no-repeat, repeat;
     &-content {
-      right: 6%;
+      right: 25%;
+      top: 30% !important;
       h1 {
         font-size: 30px;
         line-height: 50px;
@@ -158,6 +162,7 @@
 
 @media (max-width: 500px) {
   .header {
+    background-position: 15% 50%;
     &-content {
       right: 6%;
       h1 {
