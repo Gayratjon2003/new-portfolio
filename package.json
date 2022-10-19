@@ -1,8 +1,8 @@
 {
-  "homepage": "http://gayratjon.uz",
-  "name": "portfolio",
+  "homepage": "https://gayratjon.uz",
+  "name": "gayratjon",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
