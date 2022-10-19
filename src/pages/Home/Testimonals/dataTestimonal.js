@@ -13,9 +13,9 @@ export const testimonals = [
     name: "Baxtiyor Chorshanbiyev",
     title: "Software Engineer",
     src: "https://youtube.com/",
-    img: "https://i.ibb.co/KwLZRYq/man.png",
+    img: "https://i.ibb.co/T418zxf/baxtiyor.jpg",
     icon: "assets/youtube.png",
-    desc: "Gayratjon not only did timely and thorough work, but also pays attention to improving the aesthetics and functionality of the site. Throughout the process, he is responsive and ready to solve any problems that arise. It is obvious that he takes great pride in his work and I would not hesitate to recommend or work with him again.",
+    desc: "I have seen your work and it is brilliant, may Allah give development in your work and high reputation. Although, I have not taught you a lit things, you always appreciate my work. I have had a deep respect not only for your knowledge, but also for your humanity too.",
     featured: true,
   },
   {
