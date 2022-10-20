@@ -12,7 +12,7 @@ export default function Expertise() {
         <Fade bottom delay={500} duration={1500}>
           <p>
             I have been learning IT for 3 years. I have been learning web
-            programming since last year, august. I know Html, Css, Sass,
+            programming since August 2021. I know Html, Css, Sass,
             Bootstrap, JavaScript, ReactJs, Redux and i create backend in
             Strapi for API. I study part-time at TUIT Fergana branch 
           </p>
