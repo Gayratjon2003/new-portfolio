@@ -11,10 +11,10 @@ export default function Expertise() {
         </Fade>
         <Fade bottom delay={500} duration={1500}>
           <p>
-            I have been learning IT for 3 years. I have been learning web
-            programming since August 2021. I know Html, Css, Sass,
-            Bootstrap, JavaScript, ReactJs, Redux and i create backend in
-            Strapi for API. I study part-time at TUIT Fergana branch 
+            I'm G'ayratjon Abdijobborov.I'm from Namangan, Uzbekistan and now I live in
+            Tashkent. I study part-time at the Fergana branch of the Tashkent
+            University of Information Technologies at the faculty of computer
+            engineering. I'm Front End Web Developer
           </p>
         </Fade>
       </div>
@@ -36,7 +36,7 @@ export default function Expertise() {
                 <div className="blog-center">
                   <p className="blog-center-title">Things I enjoy designing:</p>
                   <p className="blog-center-text">
-                   JavaScript, TypeScript, ReactJs
+                    JavaScript, TypeScript, ReactJs
                   </p>
                 </div>
               </div>
