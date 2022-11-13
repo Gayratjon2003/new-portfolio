@@ -32,7 +32,7 @@ export default function Main() {
                   <a href="https://www.facebook.com/abdujabborov.gayratbek/" target={'_blank'}>
                   <i className="bx bxl-facebook"></i>
                   </a>
-                  <a href="https://www.youtube.com/" target={'_blank'}>
+                  <a href="https://www.youtube.com/@gayratjon2003" target={'_blank'}>
                   <i className="bx bxl-youtube"></i>
                   </a>
                   <a href="https://www.instagram.com/gayratjon_2003/" target={'_blank'}>

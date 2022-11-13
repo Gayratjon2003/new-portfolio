@@ -41,7 +41,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/" target={'_blank'}>
+                <a href="https://www.youtube.com/@gayratjon2003" target={'_blank'}>
                   <i className="bx bxl-youtube"></i>
                 </a>
               </li>
