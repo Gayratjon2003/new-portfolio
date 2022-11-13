@@ -1,6 +1,16 @@
 export const experienceData = [
   {
-    date: "July, 2022 - Present",
+    date: "November, 2022",
+    company: "Experience for myself",
+    url: "https://gayratjon2003.github.io/movie-app/",
+    description: "",
+    role: "Front End Web Developer",
+    works: [
+      "I created movie-app website. I used JSX,Sass, React, Redux and API in https://www.omdbapi.com/ . I deployed on github pages.",
+    ],
+  },
+  {
+    date: "July, 2022 - November, 2022",
     company: "TenX",
     url: "https://gayratjon2003.github.io/TenX/login",
     description: "",
