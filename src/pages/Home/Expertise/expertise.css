@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#333333), to(#424242));
+  background: linear-gradient(90deg, #333333 0%, #424242 100%);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #434343;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 10px;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+.expertise {
+  padding-bottom: 90px;
+}
+
+.introduce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 90px;
+}
+
+.introduce h2 {
+  font-family: "Poppins";
+  font-size: 54px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.introduce p {
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (max-width: 990px) {
+  .introduce p {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.skills {
+  margin-top: 60px;
+}
+
+.skills-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .skills-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.skills-box .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .skills-box .card {
+    margin-bottom: 10px;
+    border-radius: 12px;
+  }
+}
+
+.skills-box .card .blog {
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+}
+
+.skills-box .card .blog-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills-box .card .blog-top span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills-box .card .blog-top span i {
+  font-size: 70px;
+}
+
+.skills-box .card .blog-top h2 {
+  font-size: 24px;
+  font-family: "Poppins";
+  color: #25cae7;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.skills-box .card .blog-top p {
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Poppins";
+}
+
+.skills-box .card .blog-center {
+  text-align: center;
+}
+
+.skills-box .card .blog-center-title {
+  font-size: 20px;
+  color: #25cae7;
+  font-family: "Poppins";
+  margin-bottom: 20px;
+}
+
+.skills-box .card .blog-center-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.skills-box .card-1 {
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .skills-box .card-1 {
+    border-radius: 12px;
+  }
+}
+
+.skills-box .card-3 {
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .skills-box .card-3 {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .introduce h2 {
+    font-size: 48px;
+  }
+  .introduce p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .expertise {
+    padding-bottom: 60px;
+  }
+  .introduce h2 {
+    font-size: 42px;
+  }
+  .introduce p {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .skills {
+    margin-top: 60px;
+  }
+  .skills-box .card .blog-top span i {
+    font-size: 50px;
+  }
+  .skills-box .card .blog-top h2 {
+    font-size: 20px;
+  }
+  .skills-box .card .blog-top p {
+    font-size: 16px;
+  }
+  .skills-box .card .blog-center-title {
+    font-size: 18px;
+  }
+  .skills-box .card .blog-center-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .expertise {
+    padding-bottom: 60px;
+  }
+  .introduce h2 {
+    font-size: 25px;
+  }
+  .introduce p {
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .skills {
+    margin-top: 60px;
+  }
+  .skills-box .card .blog-top span i {
+    font-size: 50px;
+  }
+  .skills-box .card .blog-top h2 {
+    font-size: 20px;
+  }
+  .skills-box .card .blog-top p {
+    font-size: 16px;
+  }
+  .skills-box .card .blog-center-title {
+    font-size: 18px;
+  }
+  .skills-box .card .blog-center-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=expertise.css.map */

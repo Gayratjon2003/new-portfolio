@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#333333), to(#424242));
+  background: linear-gradient(90deg, #333333 0%, #424242 100%);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #434343;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 10px;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  padding: 20px 90px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: -webkit-gradient(linear, left top, right top, from(#333333), to(#424242));
+  background: linear-gradient(90deg, #333333 0%, #424242 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .hamburger-menu {
+  display: none;
+}
+
+.navbar .logo {
+  width: 48px;
+  cursor: pointer;
+}
+
+.navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 35px;
+          column-gap: 35px;
+}
+
+.navbar__list-link {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.navbar__list-link a {
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar__list-link a:hover {
+  color: #25cae7;
+}
+
+.navbar__list .resume {
+  border: 1px solid #25cae7;
+  border-radius: 8px;
+  padding: 8px 15px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar__list .resume a {
+  color: #25cae7;
+}
+
+.navbar__list .resume:hover {
+  border-color: #3fafd4;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1400px) {
+  .navbar {
+    height: 60px;
+  }
+  .navbar .logo {
+    width: 36px;
+  }
+  .navbar__list {
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .navbar__list-link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .navbar__list .resume {
+    padding: 5px 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .navbar ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    margin-top: 60px;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #3E3E3E;
+    z-index: 5;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar ul li {
+    margin: 20px 0;
+  }
+  .navbar .hamburger-menu {
+    display: block !important;
+    font-size: 30px !important;
+    color: inherit;
+  }
+  .display-none {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

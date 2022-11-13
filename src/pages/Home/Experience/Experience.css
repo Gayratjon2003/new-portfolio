@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.experience {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 90px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.experience_title {
+  font-size: 54px;
+  font-family: "Poppins";
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.experience_tab {
+  width: 100% !important;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.experience_tab-header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.experience_tab-header .experience_tab-title {
+  padding-left: 5px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Poppins";
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.experience_tab-header .experience_tab-title:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.experience_tab-header .Mui-selected {
+  color: #25cae7 !important;
+}
+
+.experience_tab-header .MuiButtonBase-root {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+}
+
+.experience_tab-header .MuiTabs-indicator {
+  background-color: #25cae7;
+}
+
+.experience_tab-header .MuiTabs-scroller {
+  overflow: visible;
+}
+
+.experience_tab-header .MuiTabs-flexContainer {
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+  row-gap: 10px;
+}
+
+.experience_tab-content {
+  padding-left: 30px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.experience_tab-content .company a {
+  font-size: 32px;
+  color: #25cae7;
+  font-family: "Poppins";
+}
+
+.experience_tab-content .company .role {
+  font-size: 24px;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins";
+}
+
+.experience_tab-content .description {
+  color: #a5a5a5;
+  font-family: "Poppins";
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.experience_tab-content .works {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.experience_tab-content .works li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.experience_tab-content .works li i {
+  color: #25cae7;
+  font-size: 24px;
+  margin: 5px 10px 0 0;
+}
+
+.experience_tab-content .works li span {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+@media (max-width: 1640px) {
+  .experience_tab-header .experience_tab-title {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .experience_title {
+    font-size: 48px;
+  }
+  .experience_tab-header .experience_tab-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .experience_title {
+    font-size: 42px;
+  }
+  .experience_tab-header .experience_tab-title {
+    font-size: 14px;
+  }
+  .experience_tab .MuiTabs-flexContainer {
+    row-gap: 5px;
+  }
+  .experience_tab-content .company a {
+    font-size: 24px;
+  }
+  .experience_tab-content .company .role {
+    font-size: 18px;
+  }
+  .experience_tab-content .description {
+    font-size: 14px;
+  }
+  .experience_tab-content .works {
+    font-size: 16px;
+  }
+  .experience_tab-content .works li span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .experience {
+    width: 80%;
+  }
+  .experience_title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 800px) {
+  .experience {
+    width: 90%;
+    row-gap: 20px;
+    padding-top: 30px;
+  }
+  .experience_tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .experience_tab .react-reveal {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .experience_tab .react-reveal .css-lfwcke-MuiTabs-flexContainer {
+    border: none !important;
+  }
+  .experience_tab .react-reveal .css-10d9dml-MuiTabs-indicator {
+    display: none;
+  }
+  .experience_tab .css-jpln7h-MuiTabs-scroller {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .experience_tab .css-jpln7h-MuiTabs-scroller .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .experience_tab .experience_tab-header {
+    width: 50%;
+    margin-left: 10%;
+  }
+  .experience_tab .experience_tab-content {
+    padding-left: 0;
+  }
+  .experience_tab .experience_tab-content .company-my {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .experience_tab .experience_tab-content .description-my {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .experience_tab .experience_tab-content .works-my {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+  }
+  .experience_tab .experience_tab-content .works-my li {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .experience_title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .experience {
+    width: 100%;
+  }
+  .company-my {
+    width: 90%;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .company-my a {
+    font-size: 20px !important;
+  }
+  .company-my span {
+    font-size: 16px !important;
+  }
+  .works-my li span {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}
+/*# sourceMappingURL=Experience.css.map */

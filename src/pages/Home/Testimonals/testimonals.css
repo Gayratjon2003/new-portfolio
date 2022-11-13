@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.testimonals {
+  padding: 0;
+  padding-bottom: 150px;
+}
+
+.testimonals-title {
+  font-size: 54px;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonals-text {
+  font-size: 26px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.testimonals .swiper {
+  width: 90%;
+}
+
+.testimonals .swiper .swiper-pagination-horizontal {
+  bottom: 0px !important;
+}
+
+.testimonals .swiper-wrapper .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonals .swiper-wrapper .swiper-slide img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.testimonals .swiper-wrapper .swiper-slide .text {
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.testimonals .swiper-wrapper .swiper-slide .name {
+  font-size: 28px;
+  font-family: "Poppins";
+  margin-top: 30px;
+  color: #25cae7;
+}
+
+.testimonals .swiper-wrapper .swiper-slide .role {
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1550px) {
+  .testimonals-title {
+    font-size: 48px;
+  }
+  .testimonals-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .testimonals-title {
+    font-size: 42px;
+  }
+  .testimonals-text {
+    font-size: 22px;
+    margin-bottom: 90px;
+  }
+  .testimonals .swiper-wrapper .swiper-slide img {
+    width: 60px;
+    height: 60px;
+  }
+  .testimonals .swiper-wrapper .swiper-slide .text {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .testimonals .swiper-wrapper .swiper-slide .name {
+    font-size: 24px;
+  }
+  .testimonals .swiper-wrapper .swiper-slide .role {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .testimonals .swiper-slide p {
+    line-height: 20px !important;
+  }
+  .testimonals-title {
+    font-size: 35px !important;
+  }
+  .testimonals-text {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonals-title {
+    font-size: 25px !important;
+  }
+  .testimonals-text {
+    font-size: 18px !important;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=testimonals.css.map */

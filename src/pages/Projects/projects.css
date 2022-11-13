@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#333333), to(#424242));
+  background: linear-gradient(90deg, #333333 0%, #424242 100%);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #434343;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 10px;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+.projects {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  height: 700px;
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    height: 100%;
+    min-height: 700px;
+  }
+}
+
+.projects .project-header {
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-left: 37%;
+  margin-bottom: 80px;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .projects .project-header {
+    font-size: 25px;
+  }
+}
+
+.projects .project-header::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 160px;
+  height: 1px;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+@media (max-width: 990px) {
+  .projects .project-header::after {
+    width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects .project-header::after {
+    width: 0px;
+  }
+}
+
+.projects .projects-box {
+  width: 82%;
+  height: 80%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects .projects-box .slider {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .slider {
+    height: 100%;
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.projects .projects-box .slider .slider-child {
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .slider .slider-child {
+    height: 350px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.projects .projects-box .project-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: right;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+.projects .projects-box .project-blog .project-left {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-left {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    z-index: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-left {
+    width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+}
+
+.projects .projects-box .project-blog .project-left a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(37, 202, 231, 0.3);
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-left a {
+    background-color: transparent;
+  }
+}
+
+.projects .projects-box .project-blog .project-left a:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-left a {
+    text-align: left;
+  }
+}
+
+.projects .projects-box .project-blog .project-right {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-right {
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    margin-left: -100%;
+    background-color: #414141da;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 40px;
+  }
+}
+
+.projects .projects-box .project-blog .project-right .project-right-title {
+  margin: 10px 0px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #25cae7;
+}
+
+.projects .projects-box .project-blog .project-right h3 {
+  color: #fff;
+}
+
+.projects .projects-box .project-blog .project-right h3 a {
+  color: inherit;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.projects .projects-box .project-blog .project-right h3 a:hover {
+  color: #25cae7;
+}
+
+.projects .projects-box .project-blog .project-right .project-decsription {
+  width: 130%;
+  margin-left: -30%;
+  background-color: #3c3c3c;
+  -webkit-box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+          box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 10;
+}
+
+@media (max-width: 990px) {
+  .projects .projects-box .project-blog .project-right .project-decsription {
+    width: 160%;
+    margin-left: -60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-right .project-decsription {
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.projects .projects-box .project-blog .project-right .project-decsription p {
+  padding: 25px;
+  font-size: 18px;
+  line-height: 23px;
+  color: #a8b2d1;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-right .project-decsription p {
+    font-size: 15px;
+    padding-left: 0;
+  }
+}
+
+.projects .projects-box .project-blog .project-right .project-decsription p a {
+  display: inline-block;
+  position: relative;
+  color: #25cae7;
+  overflow: hidden;
+  top: 5px;
+}
+
+.projects .projects-box .project-blog .project-right .project-decsription p a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 1px;
+  bottom: 0.5px;
+  left: -100%;
+  opacity: 1;
+  background-color: #25cae7;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.projects .projects-box .project-blog .project-right .project-decsription p a:hover:after {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  left: 0;
+  z-index: 10;
+}
+
+.projects .projects-box .project-blog .project-right ul {
+  width: 140%;
+  margin-left: -40%;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-right ul {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.projects .projects-box .project-blog .project-right ul li {
+  display: inline-block;
+  color: #a8b2d1;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-right ul li {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
+.projects .projects-box .project-blog .project-right .project-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-right .project-link {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.projects .projects-box .project-blog .project-right .project-link a {
+  margin-left: 20px;
+  font-size: 22px;
+  color: #a8b2d1;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .project-blog .project-right .project-link a {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
+.projects .projects-box .project-blog .project-right .project-link a:hover i {
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+  color: #25cae7;
+}
+
+.projects .projects-box .flex-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .projects .projects-box .flex-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.projects .projects-box .flex-reverse .project-right .project-decsription {
+  margin-left: 0;
+}
+
+.projects .projects-box .flex-reverse .project-right ul {
+  margin-left: 0;
+}
+
+.projects .projects-box .flex-reverse .project-right ul li {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.projects .projects-box .flex-reverse .project-right .project-link {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.projects .projects-box .flex-reverse .project-right .project-link a {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.projects .projects-box .latest-blog {
+  margin: 0;
+}
+
+.projects .btn {
+  background-color: transparent;
+  border: 1px solid #25cae7;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+  margin-top: 30px;
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  z-index: 20;
+}
+
+.projects .btn a {
+  color: #25cae7;
+  display: block;
+  padding: 12px 16px;
+}
+
+.projects .btn a:hover {
+  background-color: rgba(37, 202, 231, 0.2);
+}
+
+.projects .arrow {
+  height: 50px;
+  width: 50px;
+  font-size: 90px;
+  position: absolute;
+  cursor: pointer;
+  top: calc(50% - 50px);
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .projects .arrow {
+    display: none;
+  }
+}
+
+.projects .arrow.left {
+  left: -80px;
+}
+
+.projects .arrow.right {
+  right: -50px;
+}
+/*# sourceMappingURL=projects.css.map */
